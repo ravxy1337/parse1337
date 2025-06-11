@@ -38,7 +38,7 @@ interface NIKResult {
   }
 }
 
-export default function NIKParserPage() {
+export default function NIKParsePage() {
   const [nik, setNik] = useState("")
   const [result, setResult] = useState<NIKResult | null>(null)
   const [loading, setLoading] = useState(false)
@@ -138,7 +138,7 @@ export default function NIKParserPage() {
 
           {/* Main Header */}
           <div className="text-center space-y-2">
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-white">NIK Parser API</h1>
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white">NIK PARSE BY RAVXY1337</h1>
             <p className="text-lg text-gray-600 dark:text-gray-300">
               Parse dan validasi Nomor Induk Kependudukan (NIK) Indonesia
             </p>
@@ -160,7 +160,7 @@ export default function NIKParserPage() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 dark:text-white">
               <User className="w-5 h-5" />
-              NIK Parser
+              NIK Parse
             </CardTitle>
             <CardDescription className="dark:text-gray-300">
               Masukkan NIK 16 digit untuk melihat informasi yang dapat diekstrak
@@ -333,7 +333,7 @@ export default function NIKParserPage() {
           <CardHeader>
             <CardTitle className="dark:text-white">API Documentation</CardTitle>
             <CardDescription className="dark:text-gray-300">
-              Cara menggunakan NIK Parser API dalam aplikasi Anda
+              Cara menggunakan NIK Parse API dalam aplikasi Anda
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">

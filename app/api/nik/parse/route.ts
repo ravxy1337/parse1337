@@ -17,7 +17,7 @@ const U: {
   }
 };
 
-// NIK Parser function dengan database lengkap
+// NIK Parse function dengan database lengkap
 function nikParse(nik: string) {
   // Output NIK tidak valid
   let res = {

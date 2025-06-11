@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "NIK Parser API - By Ravxy1337",
+  title: "NIK Parse API - By",
   description: "API untuk parsing dan validasi Nomor Induk Kependudukan (NIK) Indonesia",
     generator: 'ravxy1337'
 }
