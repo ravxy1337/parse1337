@@ -160,7 +160,7 @@ export default function NIKParserPage() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 dark:text-white">
               <User className="w-5 h-5" />
-              Demo NIK Parser
+              NIK Parser
             </CardTitle>
             <CardDescription className="dark:text-gray-300">
               Masukkan NIK 16 digit untuk melihat informasi yang dapat diekstrak

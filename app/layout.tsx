@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "NIK Parser API - Parse NIK Indonesia",
+  title: "NIK Parser API - By Ravxy1337",
   description: "API untuk parsing dan validasi Nomor Induk Kependudukan (NIK) Indonesia",
-    generator: 'v0.dev'
+    generator: 'ravxy1337'
 }
 
 export default function RootLayout({
